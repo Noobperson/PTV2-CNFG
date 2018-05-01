@@ -1,0 +1,75 @@
+Buy/Sell stratergy
+
+market = ETH
+start_balance = 1
+enabled_pairs = ALL
+
+#================#
+## Banned Pairs ##
+#================#
+
+BNB_trading_enabled = false
+
+
+hidden_pairs = ALL
+keep_balance = 0.0
+keep_balance_percentage = 0
+pair_min_listed_days = 15
+max_trading_pairs = 15
+orderbook_profit_calculation = true
+
+#consecutive_buy_trigger = 0
+#consecutive_sell_trigger = 0
+
+#price_trigger_market = BTC
+#price_rise_trigger = 0
+#price_rise_recover_trigger = 0
+#price_drop_trigger = 0
+#price_drop_recover_trigger = 0
+
+DEFAULT_trading_enabled = true
+DEFAULT_DCA_enabled = true
+
+DEFAULT_initial_cost = 0.05
+#DEFAULT_initial_cost_percentage = 2
+DEFAULT_min_buy_volume = 150
+DEFAULT_min_buy_price = 0
+DEFAULT_max_buy_spread = 3
+DEFAULT_min_order_book_volume_percentage = 100
+
+DEFAULT_A_buy_strategy = LOWBB
+DEFAULT_A_buy_value = 10
+DEFAULT_A_buy_value_limit = -5
+
+DEFAULT_B_buy_strategy = RSI
+DEFAULT_B_buy_value = 35
+DEFAULT_B_buy_value_limit = 20
+
+DEFAULT_C_buy_strategy = MACD
+DEFAULT_C_buy_value = -0.00002
+#DEFAULT_C_buy_value_limit = 20
+
+
+DEFAULT_trailing_buy = 0.5
+
+DEFAULT_A_sell_strategy = GAIN
+DEFAULT_A_sell_value = 1
+DEFAULT_trailing_profit = 0.4
+DEFAULT_max_profit = 20
+
+
+#DEFAULT_stop_loss_trigger = 0
+#DEFAULT_stop_loss_timeout = 0
+#DEFAULT_panic_sell_enabled = false
+#DEFAULT_sell_only_mode_enabled = false
+DEFAULT_rebuy_timeout = 15
+
+DEFAULT_buy_min_change_percentage = 0
+DEFAULT_buy_max_change_percentage = 20
+
+# Rename me?
+#DEFAULT_pending_order_wait_time = 0
+#DEFAULT_combined_cancel_pending_trigger = 0
+
+#DEFAULT_take_profit_wait_time = 0
+#DEFAULT_take_profit_percentage = 0
