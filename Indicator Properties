@@ -1,0 +1,63 @@
+#============#
+# Indicators #
+#============#
+
+
+#-------------------#
+## Bollinger Bands ##
+#-------------------#
+
+BB_std = 2
+BB_candle_period = 900
+BB_length = 24
+
+#-------------------------#
+## Simple Moving Average ##
+#-------------------------#
+
+#SMA_cross_candles = 2
+#SMA_candle_period = 300
+#SMA_fast_length = 12
+#SMA_slow_length = 24
+
+#------------------------------#
+## Exponential Moving Average ##
+#------------------------------#
+
+#EMA_cross_candles = 3
+#EMA_candle_period = 300
+#EMA_fast_length = 3
+#EMA_slow_length = 24
+
+#---------------------------#
+## Relative Strength Index ##
+#---------------------------#
+
+RSI_candle_period = 900
+RSI_length = 24
+
+#--------------#
+## Stochastic ##
+#--------------#
+
+#STOCH_length = 14
+
+#-----------------------------------------#
+## Moving average convergence divergence ##
+#-----------------------------------------#
+
+MACD_candle_period = 900
+MACD_fast_length = 13
+MACD_slow_length = 21
+MACD_signal = 6
+
+#---------------------#
+## On-Balance Volume ##
+#---------------------#
+
+#OBV_candle_period = 300
+#OBV_length = 50
+#OBV_signal = 1
+
+#Always uses 5 minute candles
+#SOM_trigger_length = 288
